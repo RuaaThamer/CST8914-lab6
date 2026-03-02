@@ -128,39 +128,41 @@
 
             <div class="row">
               <div class="col-md-6">
-                <h3 class="h4">Sold Properties</h3>
+                <h3>Sold Properties</h3>
                 <div class="table-responsive">
                   <table class="table table-bordered">
                     <!--Complex image -->
                     <thead>
                       <tr style="background-color: #333333; color: #ffffff">
-                        <th scope="col" class="text-center">Year</th>
-                        <th scope="col" class="text-center">Quebec</th>
-                        <th scope="col" class="text-center">Ontario</th>
+                        <th id="tbl1-year" class="text-center">Year</th>
+                        <th id="tbl1-quebec" class="text-center">Quebec</th>
+                        <th id="tbl1-ontario" class="text-center">Ontario</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <th
-                          scope="row"
-                          style="background-color: #eeeeee"
+                          id="tbl1-r2021"
+                          headers="tbl1-year"
                           class="text-center"
+                          style="background-color: #eeeeee"
                         >
                           2021
                         </th>
-                        <td>50</td>
-                        <td>100</td>
+                        <td headers="tbl1-r2021 tbl1-quebec">50</td>
+                        <td headers="tbl1-r2021 tbl1-ontario">100</td>
                       </tr>
                       <tr>
                         <th
-                          scope="row"
+                          id="tbl1-r2022"
+                          headers="tbl1-year"
                           style="background-color: #eeeeee"
                           class="text-center"
                         >
                           2022
                         </th>
-                        <td>100</td>
-                        <td>200</td>
+                        <td headers="tbl1-r2022 tbl1-quebec">100</td>
+                        <td headers="tbl1-r2022 tbl1-ontario">200</td>
                       </tr>
                     </tbody>
                   </table>
@@ -168,38 +170,42 @@
               </div>
 
               <div class="col-md-6">
-                <h3 class="h4">Average Selling Price</h3>
+                <h3>Average Selling Price</h3>
                 <div class="table-responsive">
                   <table class="table table-bordered">
                     <thead>
                       <tr style="background-color: #333333; color: #ffffff">
-                        <th scope="col" class="text-center">Year</th>
-                        <th scope="col" class="text-center">Single house</th>
-                        <th scope="col" class="text-center">Condo</th>
+                        <th id="tbl2-year" class="text-center">Year</th>
+                        <th id="tbl2-single" class="text-center">
+                          Single house
+                        </th>
+                        <th id="tbl2-condo" class="text-center">Condo</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <th
-                          scope="row"
-                          style="background-color: #eeeeee"
+                          id="tbl2-r2021"
+                          headers="tbl2-year"
                           class="text-center"
+                          style="background-color: #eeeeee"
                         >
                           2021
                         </th>
-                        <td>$500,00</td>
-                        <td>189,000</td>
+                        <td headers="tbl2-r2021 tbl2-single">$500,00</td>
+                        <td headers="tbl2-r2021 tbl2-condo">189,000</td>
                       </tr>
                       <tr>
                         <th
-                          scope="row"
+                          id="tbl2-r2022"
+                          headers="tbl2-year"
                           style="background-color: #eeeeee"
                           class="text-center"
                         >
                           2022
                         </th>
-                        <td>$780,00</td>
-                        <td>240,000</td>
+                        <td headers="tbl2-r2022 tbl2-single">$780,00</td>
+                        <td headers="tbl2-r2022 tbl2-condo">240,000</td>
                       </tr>
                     </tbody>
                   </table>
@@ -239,7 +245,7 @@
             alt="A red birdhouse with a for sale sign"
             class="img-responsive"
           /><!--Information iamge-->
-          <h3 class="h4">
+          <h3>
             <a href="#">What Are The Risks of Selling a Home Yourself?</a>
           </h3>
           <p>
@@ -259,7 +265,7 @@
             alt="Real estate agent meeting with a client"
             class="img-responsive"
           /><!--Information iamge-->
-          <h3 class="h4">
+          <h3>
             <a href="#"
               >7 Questions to Ask a Real Estate Agent Before You Commit</a
             >
@@ -277,7 +283,7 @@
             alt="Agent putting up a for sale sign"
             class="img-responsive"
           /><!--Information iamge-->
-          <h3 class="h4">
+          <h3>
             <a href="#">8 Reasons to Hire an Agent When Selling Your Home</a>
           </h3>
           <p>
